@@ -6,7 +6,7 @@
 # catalog-version 0.90
 Name:		texlive-calcage
 Version:	0.90
-Release:	10
+Release:	11
 Summary:	Calculate the age of something, in years
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calcage

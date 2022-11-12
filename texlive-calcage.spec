@@ -1,19 +1,13 @@
-# revision 27725
-# category Package
-# catalog-ctan /macros/latex/contrib/calcage
-# catalog-date 2012-09-16 15:15:03 +0200
-# catalog-license lppl1.3
-# catalog-version 0.90
 Name:		texlive-calcage
-Version:	0.90
-Release:	11
+Version:	27725
+Release:	1
 Summary:	Calculate the age of something, in years
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calcage
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.r27725.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.doc.r27725.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.source.r27725.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,12 +20,12 @@ the age in days; conversion from days to years is then
 performed, taking care of leap years and such odd things.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -44,7 +38,8 @@ performed, taking care of leap years and such odd things.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 

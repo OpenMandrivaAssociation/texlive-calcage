@@ -5,9 +5,9 @@ Summary:	Calculate the age of something, in years
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calcage
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.r27725.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.doc.r27725.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.source.r27725.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg

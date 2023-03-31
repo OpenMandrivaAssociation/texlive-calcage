@@ -1,6 +1,6 @@
 Name:		texlive-calcage
 Version:	27725
-Release:	1
+Release:	2
 Summary:	Calculate the age of something, in years
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calcage

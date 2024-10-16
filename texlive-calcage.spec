@@ -3,7 +3,7 @@ Version:	27725
 Release:	2
 Summary:	Calculate the age of something, in years
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calcage
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/calcage
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calcage.doc.r%{version}.tar.xz
